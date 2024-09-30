@@ -1,6 +1,6 @@
 
 # Route Optimization Program
-
+![Route Optimization](./images/DALL·E%202024-09-30%2012.24.56%20-%20A%20sleek%20and%20modern%20wide%20header%20image%20for%20a%20project%20titled%20'Route%20Optimization%20Program'.%20The%20background%20should%20feature%20a%20global%20map%20with%20connecting%20lin.webp)
 ## Overview
 
 This program calculates and displays the most efficient travel routes between two countries based on the user's preference for either **fastest** or **cheapest** travel options. The routes are generated based on data from CSV files containing city and route information.
@@ -42,10 +42,10 @@ Enter a preference (fastest/cheapest): cheapest
 ## Screenshots
 
 ### Fastest Route Example
-![Fastest Route]()
+![Fastest Route](./images/pic6.png)
 
 ### Cheapest Route Example
-![Cheapest Route]()
+![Cheapest Route](./images/pic6.png)
 
 ## File Structure
 
