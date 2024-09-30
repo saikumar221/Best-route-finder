@@ -1,0 +1,41 @@
+<HTML><HEAD><TITLE>Shortest path from Italy to Kazakhstan</TITLE></HEAD>
+<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false'></script>
+<script>function initialize() {
+var myOptions = { zoom: 3, center: new google.maps.LatLng(0, 0), mapTypeId: google.maps.MapTypeId.ROADMAP };
+var map = new google.maps.Map(document.getElementById('map'), myOptions);
+var marker0 = new google.maps.Marker({ position: new google.maps.LatLng(55.750000, 37.583300), map: map, title: "Moskva, Russian Federation"});
+var marker1 = new google.maps.Marker({ position: new google.maps.LatLng(59.366700, 24.800000), map: map, title: "Tallinn, Estonia"});
+var contentString0 = "Moskva, Russian Federation --> Tallinn, Estonia (plane - 16.000000 hours - $363.000000)";
+var path0 = new google.maps.Polyline({ path: [new google.maps.LatLng(55.750000, 37.583300), new google.maps.LatLng(59.366700, 24.800000)], strokeColor: '#0000FF', strokeOpacity: 1.0, strokeWeight: 2 });
+path0.setMap(map); google.maps.event.addListener(path0, 'click', function(event) { alert(contentString0); });
+var marker2 = new google.maps.Marker({ position: new google.maps.LatLng(59.366700, 24.800000), map: map, title: "Tallinn, Estonia"});
+var marker3 = new google.maps.Marker({ position: new google.maps.LatLng(60.250000, 25.050000), map: map, title: "Helsinki, Finland"});
+var contentString1 = "Tallinn, Estonia --> Helsinki, Finland (plane - 27.500000 hours - $1057.000000)";
+var path1 = new google.maps.Polyline({ path: [new google.maps.LatLng(59.366700, 24.800000), new google.maps.LatLng(60.250000, 25.050000)], strokeColor: '#0000FF', strokeOpacity: 1.0, strokeWeight: 2 });
+path1.setMap(map); google.maps.event.addListener(path1, 'click', function(event) { alert(contentString1); });
+var marker4 = new google.maps.Marker({ position: new google.maps.LatLng(60.250000, 25.050000), map: map, title: "Helsinki, Finland"});
+var marker5 = new google.maps.Marker({ position: new google.maps.LatLng(59.333300, 18.050000), map: map, title: "Stockholm, Sweden"});
+var contentString2 = "Helsinki, Finland --> Stockholm, Sweden (plane - 27.000000 hours - $1300.000000)";
+var path2 = new google.maps.Polyline({ path: [new google.maps.LatLng(60.250000, 25.050000), new google.maps.LatLng(59.333300, 18.050000)], strokeColor: '#0000FF', strokeOpacity: 1.0, strokeWeight: 2 });
+path2.setMap(map); google.maps.event.addListener(path2, 'click', function(event) { alert(contentString2); });
+var marker6 = new google.maps.Marker({ position: new google.maps.LatLng(59.333300, 18.050000), map: map, title: "Stockholm, Sweden"});
+var marker7 = new google.maps.Marker({ position: new google.maps.LatLng(55.683300, 12.566700), map: map, title: "Copenhagen, Denmark"});
+var contentString3 = "Stockholm, Sweden --> Copenhagen, Denmark (plane - 26.167000 hours - $848.000000)";
+var path3 = new google.maps.Polyline({ path: [new google.maps.LatLng(59.333300, 18.050000), new google.maps.LatLng(55.683300, 12.566700)], strokeColor: '#0000FF', strokeOpacity: 1.0, strokeWeight: 2 });
+path3.setMap(map); google.maps.event.addListener(path3, 'click', function(event) { alert(contentString3); });
+var marker8 = new google.maps.Marker({ position: new google.maps.LatLng(55.683300, 12.566700), map: map, title: "Copenhagen, Denmark"});
+var marker9 = new google.maps.Marker({ position: new google.maps.LatLng(62.083300, -6.933330), map: map, title: "Torshavn, Faroe Islands"});
+var contentString4 = "Copenhagen, Denmark --> Torshavn, Faroe Islands (train - 6.470000 hours - $221.000000)";
+var path4 = new google.maps.Polyline({ path: [new google.maps.LatLng(55.683300, 12.566700), new google.maps.LatLng(62.083300, -6.933330)], strokeColor: '#0000FF', strokeOpacity: 1.0, strokeWeight: 2 });
+path4.setMap(map); google.maps.event.addListener(path4, 'click', function(event) { alert(contentString4); });
+var marker10 = new google.maps.Marker({ position: new google.maps.LatLng(62.083300, -6.933330), map: map, title: "Torshavn, Faroe Islands"});
+var marker11 = new google.maps.Marker({ position: new google.maps.LatLng(64.166700, -21.950000), map: map, title: "Reykjavik, Iceland"});
+var contentString5 = "Torshavn, Faroe Islands --> Reykjavik, Iceland (plane - 31.000000 hours - $2535.000000)";
+var path5 = new google.maps.Polyline({ path: [new google.maps.LatLng(62.083300, -6.933330), new google.maps.LatLng(64.166700, -21.950000)], strokeColor: '#0000FF', strokeOpacity: 1.0, strokeWeight: 2 });
+path5.setMap(map); google.maps.event.addListener(path5, 'click', function(event) { alert(contentString5); });
+var marker12 = new google.maps.Marker({ position: new google.maps.LatLng(64.166700, -21.950000), map: map, title: "Reykjavik, Iceland"});
+var marker13 = new google.maps.Marker({ position: new google.maps.LatLng(38.895000, -77.038000), map: map, title: "Washington DC, United States of America"});
+var contentString6 = "Reykjavik, Iceland --> Washington DC, United States of America (plane - 36.900002 hours - $1068.000000)";
+var path6 = new google.maps.Polyline({ path: [new google.maps.LatLng(64.166700, -21.950000), new google.maps.LatLng(38.895000, -77.038000)], strokeColor: '#0000FF', strokeOpacity: 1.0, strokeWeight: 2 });
+path6.setMap(map); google.maps.event.addListener(path6, 'click', function(event) { alert(contentString6); });
+} google.maps.event.addDomListener(window, 'load', initialize); </script></HEAD><BODY><div id='map' style='width:100%;height:100%;'></div></BODY></HTML>
